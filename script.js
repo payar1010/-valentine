@@ -51,7 +51,7 @@ yesBtn.onclick = () => {
   } else if (question.innerText.includes("قرارمون")) {
     question.innerText = "پس قرارمون قطعی شد 💘\nولنتاین امسال مالِ ماست";
     resetButtons("", "");
-    showImage("images/us.webp");
+    showImage("images/us.png");
     yesBtn.style.display = "none";
     noBtn.style.display = "none";
   } else {
@@ -82,4 +82,5 @@ noBtn.onclick = () => {
 };
 
 start();
+
 
