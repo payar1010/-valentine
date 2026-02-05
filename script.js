@@ -64,7 +64,7 @@ yesBtn.onclick = () => {
 
 noBtn.onclick = () => {
   if (question.innerText.includes("رانِ شما")) {
-    question.innerText = "توروفضااااا 😭\nیعنی ولنتاین من نمی‌شی؟";
+    question.innerText = "توروفضااااا \nیعنی ولنتاین من نمی‌شی؟";
     resetButtons("می‌شم", "نمی‌شم");
     hideImage();
     return;
@@ -82,3 +82,4 @@ noBtn.onclick = () => {
 };
 
 start();
+
